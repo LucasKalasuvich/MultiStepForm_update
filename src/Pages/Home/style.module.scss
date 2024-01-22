@@ -1,0 +1,18 @@
+@import "../../styles/base.scss";
+
+.card {
+    width: 50%;
+
+    @include directionX;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            padding-right: 250px;
+        }
+    }
+}

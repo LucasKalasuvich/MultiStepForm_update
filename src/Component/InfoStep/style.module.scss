@@ -1,0 +1,33 @@
+@import "../../styles/base.scss";
+
+.container {
+
+
+    @include directionY;
+
+    .text h1 {
+        color: $marineBlue;
+        font-family: $fonFamily;
+        font-weight: $fontWeight;
+    }
+
+    .text p {
+        color: $coolGray;
+        font-family: $fonFamily;
+        font-weight: $fontWeight;
+    }
+
+    .text2 h5{
+        color: $marineBlue;
+        font-family: $fonFamily;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: end;
+
+        .Button {
+            background: $marineBlue;
+        }
+    }
+}

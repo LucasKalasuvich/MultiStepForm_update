@@ -1,0 +1,9 @@
+@import "./styles/base.scss";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: $magnolia;
+}
